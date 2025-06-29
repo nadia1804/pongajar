@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://pongajar.com/read/kalender-2025/",
+            "url": "https://pongajar.com/read/kalender-2025/",
+            "title": "kalender 2025",
+            "summary": "No. Tanggal Hari Keterangan 1 1 Januari 2025 Rabu Tahun Baru 2025 Masehi 2 27 Januari 2025 Senin Isra Mikraj Nabi Muhammad S.A.W. 3 29 Januari 2025 Rabu Tahun Baru Imlek 2576 Kongzili 4 29 Maret 2025 Sabtu Hari Suci Nyepi (Tahun Baru Saka 1947) 5 31 Maret-1 April 2025&hellip;",
+            "content_html": "<table id=\"holidayTable\" class=\"display\">\n<thead>\n<tr>\n<th>No.</th>\n<th>Tanggal</th>\n<th>Hari</th>\n<th>Keterangan</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>1 Januari 2025</td>\n<td>Rabu</td>\n<td>Tahun Baru 2025 Masehi</td>\n</tr>\n<tr>\n<td>2</td>\n<td>27 Januari 2025</td>\n<td>Senin</td>\n<td>Isra Mikraj Nabi Muhammad S.A.W.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>29 Januari 2025</td>\n<td>Rabu</td>\n<td>Tahun Baru Imlek 2576 Kongzili</td>\n</tr>\n<tr>\n<td>4</td>\n<td>29 Maret 2025</td>\n<td>Sabtu</td>\n<td>Hari Suci Nyepi (Tahun Baru Saka 1947)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>31 Maret-1 April 2025</td>\n<td>Senin-Selasa</td>\n<td>Idul Fitri 1446 Hijriah</td>\n</tr>\n<tr>\n<td>6</td>\n<td>18 April 2025</td>\n<td>Jumat</td>\n<td>Wafat Yesus Kristus</td>\n</tr>\n<tr>\n<td>7</td>\n<td>20 April 2025</td>\n<td>Minggu</td>\n<td>Kebangkitan Yesus Kristus (Paskah)</td>\n</tr>\n<tr>\n<td>8</td>\n<td>1 Mei 2025</td>\n<td>Kamis</td>\n<td>Hari Buruh Internasional</td>\n</tr>\n<tr>\n<td>9</td>\n<td>12 Mei 2025</td>\n<td>Senin</td>\n<td>Hari Raya Waisak 2569 BE</td>\n</tr>\n<tr>\n<td>10</td>\n<td>29 Mei 2025</td>\n<td>Kamis</td>\n<td>Kenaikan Yesus Kristus</td>\n</tr>\n<tr>\n<td>11</td>\n<td>1 Juni 2025</td>\n<td>Minggu</td>\n<td>Hari Lahir Pancasila</td>\n</tr>\n<tr>\n<td>12</td>\n<td>6 Juni 2025</td>\n<td>Jumat</td>\n<td>Idul Adha 1446 Hijriah</td>\n</tr>\n<tr>\n<td>13</td>\n<td>27 Juni 2025</td>\n<td>Jumat</td>\n<td>1 Muharam Tahun Baru Islam 1447 Hijriah</td>\n</tr>\n<tr>\n<td>14</td>\n<td>17 Agustus 2025</td>\n<td>Minggu</td>\n<td>Proklamasi Kemerdekaan</td>\n</tr>\n<tr>\n<td>15</td>\n<td>5 September 2025</td>\n<td>Jumat</td>\n<td>Maulid Nabi Muhammad S.A.W.</td>\n</tr>\n<tr>\n<td>16</td>\n<td>25 Desember 2025</td>\n<td>Kamis</td>\n<td>Kelahiran Yesus Kristus</td>\n</tr>\n<tr>\n<td>17</td>\n<td>31 Desember 2025</td>\n<td>Rabu</td>\n<td>Malam Tahun Baru 2025</td>\n</tr>\n</tbody>\n</table>\n<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>\n<script src=\"https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js\"></script>\n<script>\n\t$(document).ready(function() {\n\t\t$('#holidayTable').DataTable({\n\t\t\t\"paging\": true,\n\t\t\t\"searching\": true,\n\t\t\t\"ordering\": true,\n\t\t\t\"info\": true,\n\t\t\t\"language\": {\n\t\t\t\t\"url\": \"//cdn.datatables.net/plug-ins/1.13.4/i18n/Indonesian.json\"\n\t\t\t}\n\t\t});\n\t});\n</script>",
+            "author": {
+                "name": "Deddy Hidayat"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-06-29T22:08:08+08:00",
+            "date_modified": "2025-06-29T22:08:08+08:00"
+        },
+        {
             "id": "https://pongajar.com/read/hello-world/",
             "url": "https://pongajar.com/read/hello-world/",
             "title": "Hello world!",

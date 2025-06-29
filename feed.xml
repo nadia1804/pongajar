@@ -3,12 +3,160 @@
     <title>Pongajar</title>
     <link href="https://pongajar.com/feed.xml" rel="self" />
     <link href="https://pongajar.com" />
-    <updated>2025-06-29T22:01:25+08:00</updated>
+    <updated>2025-06-29T22:08:08+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
     <id>https://pongajar.com</id>
 
+    <entry>
+        <title>kalender 2025</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://pongajar.com/read/kalender-2025/"/>
+        <id>https://pongajar.com/read/kalender-2025/</id>
+
+        <updated>2025-06-29T22:08:08+08:00</updated>
+            <summary>
+                <![CDATA[
+                    No. Tanggal Hari Keterangan 1 1 Januari 2025 Rabu Tahun Baru 2025 Masehi 2 27 Januari 2025 Senin Isra Mikraj Nabi Muhammad S.A.W. 3 29 Januari 2025 Rabu Tahun Baru Imlek 2576 Kongzili 4 29 Maret 2025 Sabtu Hari Suci Nyepi (Tahun Baru Saka 1947) 5 31 Maret-1 April 2025&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <table id="holidayTable" class="display">
+<thead>
+<tr>
+<th>No.</th>
+<th>Tanggal</th>
+<th>Hari</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1 Januari 2025</td>
+<td>Rabu</td>
+<td>Tahun Baru 2025 Masehi</td>
+</tr>
+<tr>
+<td>2</td>
+<td>27 Januari 2025</td>
+<td>Senin</td>
+<td>Isra Mikraj Nabi Muhammad S.A.W.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>29 Januari 2025</td>
+<td>Rabu</td>
+<td>Tahun Baru Imlek 2576 Kongzili</td>
+</tr>
+<tr>
+<td>4</td>
+<td>29 Maret 2025</td>
+<td>Sabtu</td>
+<td>Hari Suci Nyepi (Tahun Baru Saka 1947)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>31 Maret-1 April 2025</td>
+<td>Senin-Selasa</td>
+<td>Idul Fitri 1446 Hijriah</td>
+</tr>
+<tr>
+<td>6</td>
+<td>18 April 2025</td>
+<td>Jumat</td>
+<td>Wafat Yesus Kristus</td>
+</tr>
+<tr>
+<td>7</td>
+<td>20 April 2025</td>
+<td>Minggu</td>
+<td>Kebangkitan Yesus Kristus (Paskah)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>1 Mei 2025</td>
+<td>Kamis</td>
+<td>Hari Buruh Internasional</td>
+</tr>
+<tr>
+<td>9</td>
+<td>12 Mei 2025</td>
+<td>Senin</td>
+<td>Hari Raya Waisak 2569 BE</td>
+</tr>
+<tr>
+<td>10</td>
+<td>29 Mei 2025</td>
+<td>Kamis</td>
+<td>Kenaikan Yesus Kristus</td>
+</tr>
+<tr>
+<td>11</td>
+<td>1 Juni 2025</td>
+<td>Minggu</td>
+<td>Hari Lahir Pancasila</td>
+</tr>
+<tr>
+<td>12</td>
+<td>6 Juni 2025</td>
+<td>Jumat</td>
+<td>Idul Adha 1446 Hijriah</td>
+</tr>
+<tr>
+<td>13</td>
+<td>27 Juni 2025</td>
+<td>Jumat</td>
+<td>1 Muharam Tahun Baru Islam 1447 Hijriah</td>
+</tr>
+<tr>
+<td>14</td>
+<td>17 Agustus 2025</td>
+<td>Minggu</td>
+<td>Proklamasi Kemerdekaan</td>
+</tr>
+<tr>
+<td>15</td>
+<td>5 September 2025</td>
+<td>Jumat</td>
+<td>Maulid Nabi Muhammad S.A.W.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>25 Desember 2025</td>
+<td>Kamis</td>
+<td>Kelahiran Yesus Kristus</td>
+</tr>
+<tr>
+<td>17</td>
+<td>31 Desember 2025</td>
+<td>Rabu</td>
+<td>Malam Tahun Baru 2025</td>
+</tr>
+</tbody>
+</table>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('#holidayTable').DataTable({
+			"paging": true,
+			"searching": true,
+			"ordering": true,
+			"info": true,
+			"language": {
+				"url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/Indonesian.json"
+			}
+		});
+	});
+</script>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Hello world!</title>
         <author>
