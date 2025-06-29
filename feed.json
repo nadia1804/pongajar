@@ -9,5 +9,19 @@
         "name": "Deddy Hidayat"
     },
     "items": [
+        {
+            "id": "https://pongajar.com/read/hello-world/",
+            "url": "https://pongajar.com/read/hello-world/",
+            "title": "Hello world!",
+            "summary": "Judul Utama Contoh Teks Dummy dengan Elemen Ini adalah paragraf pembuka dari teks dummy. Tujuannya untuk mengisi ruang dalam desain dan memberikan gambaran visual tata letak. Sering digunakan oleh para desainer web, pengembang, dan penerbit sebagai placeholder sementara. Penggunaan teks dummy membantu Anda fokus pada elemen visual. Perhatikan bagaimana paragraf&hellip;",
+            "content_html": "<h1 id=\"judul-utama-contoh-teks-dummy-dengan-elemen\">Judul Utama Contoh Teks Dummy dengan Elemen</h1>\n<p>Ini adalah paragraf pembuka dari teks dummy. Tujuannya untuk mengisi ruang dalam <strong>desain</strong> dan memberikan gambaran visual tata letak. Sering digunakan oleh para <em>desainer web</em>, <em>pengembang</em>, dan <em>penerbit</em> sebagai placeholder sementara.</p><hr>\n<h2 id=\"subjudul-berikutnya\">Subjudul Berikutnya</h2>\n<p>Penggunaan teks dummy membantu Anda fokus pada elemen visual. Perhatikan bagaimana paragraf ini menggunakan:</p><ul>\n<li><strong>Teks tebal</strong> untuk penekanan.</li>\n<li><em>Teks miring</em> untuk menyoroti istilah.</li>\n<li><code>Kode inline</code> untuk menunjukkan sintaks atau perintah sederhana.</li>\n</ul>\n<p>Teks ini juga bisa memuat <a href=\"https://www.example.com\">tautan contoh</a> untuk mendemonstrasikan perilaku tautan.</p><hr>\n<h2 id=\"bagian-tambahan\">Bagian Tambahan</h2>\n<p>Anda juga bisa menambahkan daftar bernomor:</p><ol>\n<li>Elemen daftar pertama.</li>\n<li>Elemen daftar kedua.</li>\n<li>Elemen daftar ketiga.</li>\n</ol>\n<p>Atau mungkin sebuah blok kutipan:</p><blockquote>\n<p>“Kutipan ini menunjukkan bagaimana blok kutipan akan terlihat dalam desain Anda, memberikan penekanan visual yang berbeda pada bagian tertentu dari teks.”</p></blockquote>\n<p>Teks dummy adalah alat yang efisien untuk <em>prototyping</em> dan <em>mock-up</em> sebelum konten final tersedia.</p>",
+            "author": {
+                "name": "Deddy Hidayat"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-06-29T22:01:25+08:00",
+            "date_modified": "2025-06-29T22:01:25+08:00"
+        }
     ]
 }
