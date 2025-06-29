@@ -1,3 +1,2 @@
 User-agent: *
-Disallow:
-Sitemap: https://pongajar.com/sitemap.xml
+Disallow: /
