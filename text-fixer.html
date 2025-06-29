@@ -46,6 +46,7 @@
         body {
             background-color: #F8F8F8; /* Light gray background for the body */
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A clean, modern font */
+            padding-bottom: 80px; /* Tambahkan padding agar konten tidak tertutup sticky footer */
         }
         h1, h2 {
             font-weight: 600; /* Slightly bolder headings */
@@ -62,6 +63,19 @@
             border-color: #FF8C00;
             box-shadow: 0 0 0 .25rem rgba(255, 140, 0, .25);
         }
+
+        /* Sticky Button Container */
+        .sticky-buttons {
+            position: fixed; /* Membuat elemen tetap di posisinya */
+            bottom: 0; /* Menempatkannya di bagian bawah */
+            left: 0;
+            width: 100%;
+            background-color: #fff; /* Latar belakang putih */
+            padding: 15px 0;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1); /* Bayangan di atas untuk efek timbul */
+            z-index: 1000; /* Memastikan di atas elemen lain */
+            text-align: center; /* Tombol di tengah */
+        }
     </style>
 </head>
 <body>
@@ -73,7 +87,19 @@
             <textarea class="form-control" id="inputText" rows="10" placeholder="Ketik atau tempel teks Anda di sini..."></textarea>
         </div>
 
-        <div class="d-grid gap-2 d-md-block mb-4">
+        <h2 class="mb-3 text-primary">Preview Hasil Teks:</h2>
+        <div class="card">
+            <div class="card-body bg-light" id="previewOutput" style="min-height: 150px; white-space: pre-wrap; word-wrap: break-word;">
+                </div>
+        </div>
+        
+        <div style="height: 400px; background-color: #f0f0f0; margin-top: 20px; display: none;">
+            </div>
+
+    </div>
+
+    <div class="sticky-buttons">
+        <div class="container">
             <button class="btn btn-primary me-md-2" id="fixAndCopyBtn" type="button">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill me-2" viewBox="0 0 16 16">
                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-.052z"/>
@@ -87,12 +113,6 @@
                 </svg>
                 Reset
             </button>
-        </div>
-
-        <h2 class="mb-3 text-primary">Preview Hasil Teks:</h2>
-        <div class="card">
-            <div class="card-body bg-light" id="previewOutput" style="min-height: 150px; white-space: pre-wrap; word-wrap: break-word;">
-                </div>
         </div>
     </div>
 
@@ -119,6 +139,7 @@
             const resetBtn = document.getElementById('resetBtn');
             const previewOutput = document.getElementById('previewOutput');
 
+            // Event listener for the "Fix & Copy" button
             fixAndCopyBtn.addEventListener('click', function() {
                 let textToFix = inputText.value;
                 let fixedText = TextFixer.fix(textToFix);
@@ -133,9 +154,28 @@
                 });
             });
 
+            // Event listener for the "Reset" button
             resetBtn.addEventListener('click', function() {
                 inputText.value = ''; // Clear the input text area
                 previewOutput.textContent = ''; // Clear the preview area
+            });
+
+            // Event listener to trigger the button on Enter keydown in textarea, but allow Shift+Enter for new line
+            inputText.addEventListener('keydown', function(event) {
+                // Check if the pressed key is 'Enter' AND Shift key is NOT pressed
+                if (event.key === 'Enter' && !event.shiftKey) {
+                    event.preventDefault(); // Prevent the default action (new line in textarea)
+                    fixAndCopyBtn.click(); // Trigger a click on the 'Fix & Copy' button
+                }
+                // If Shift+Enter is pressed, the default action (new line) will occur.
+            });
+
+            // Event listener for the entire document to detect 'Escape' key
+            document.addEventListener('keydown', function(event) {
+                // Check if the pressed key is 'Escape' (key 'Escape' or keyCode 27)
+                if (event.key === 'Escape') {
+                    resetBtn.click(); // Trigger a click on the 'Reset' button
+                }
             });
         });
     </script>
