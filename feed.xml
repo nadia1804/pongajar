@@ -3,43 +3,12 @@
     <title>Pongajar</title>
     <link href="https://pongajar.com/feed.xml" rel="self" />
     <link href="https://pongajar.com" />
-    <updated>2025-06-30T17:23:52+08:00</updated>
+    <updated>2025-06-29T22:13:40+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
     <id>https://pongajar.com</id>
 
-    <entry>
-        <title>text fixer</title>
-        <author>
-            <name>Deddy Hidayat</name>
-        </author>
-        <link href="https://pongajar.com/read/text-fixer-2/"/>
-        <id>https://pongajar.com/read/text-fixer-2/</id>
-
-        <updated>2025-06-30T15:44:04+08:00</updated>
-            <summary>
-                <![CDATA[
-                    Perbaiki Salin Reset
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <div><div style="margin: 1rem 0; padding: 1rem 0;">
-  <textarea id="inputText" rows="6" style="width:100%; margin-bottom: 1rem;" placeholder="Tulis teks di sini..."></textarea>
-
-  <div style="margin-bottom: 1rem;">
-    <button onclick="fixText()">Perbaiki</button>
-    <button onclick="copyText()">Salin</button>
-    <button onclick="resetText()">Reset</button>
-  </div>
-
-  <textarea id="outputText" rows="6" style="width:100%;" readonly placeholder="Hasil perbaikan akan muncul di sini..."></textarea>
-</div>
-</div>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>soal latihan interaktif</title>
         <author>
