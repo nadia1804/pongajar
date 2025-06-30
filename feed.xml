@@ -3,7 +3,7 @@
     <title>Pongajar</title>
     <link href="https://pongajar.com/feed.xml" rel="self" />
     <link href="https://pongajar.com" />
-    <updated>2025-06-30T15:46:16+08:00</updated>
+    <updated>2025-06-30T16:05:41+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
@@ -35,7 +35,8 @@
   </div>
 
   <textarea id="outputText" rows="6" style="width:100%;" readonly placeholder="Hasil perbaikan akan muncul di sini..."></textarea>
-</div></div>
+</div>
+</div>
             ]]>
         </content>
     </entry>
