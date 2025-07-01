@@ -1,0 +1,26 @@
+name: 🔧 Ghostify Meta Generator
+
+on:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+  ghostify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔽 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🔄 Ganti meta generator jadi Ghost
+        run: |
+          find . -type f -name "index.html" -exec sed -i 's|<meta name="generator" content="Publii Open-Source CMS for Static Site">|<meta name="generator" content="Ghost">|g' {} +
+
+      - name: ✅ Commit dan Push Perubahan
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "🤖 Replace meta generator with Ghost"
+          git push
