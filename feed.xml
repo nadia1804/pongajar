@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>pongajar</title>
+    <link href="https://pongajar.com/feed.xml" rel="self" />
+    <link href="https://pongajar.com" />
+    <updated>2025-07-01T14:39:51+08:00</updated>
+    <author>
+        <name>pong</name>
+    </author>
+    <id>https://pongajar.com</id>
+
+    <entry>
+        <title>Text fixer</title>
+        <author>
+            <name>pong</name>
+        </author>
+        <link href="https://pongajar.com/table-js.html"/>
+        <id>https://pongajar.com/table-js.html</id>
+
+        <updated>2025-07-01T14:38:55+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Text Fixer Bersihkan Spasi
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div> <div style="padding: 20px; margin: 30px;">
+    <h2>Text Fixer</h2>
+    <textarea id="inputText" rows="8" style="width: 100%; padding: 10px; margin-bottom: 15px;"></textarea>
+    <button onclick="fixText()" style="padding: 8px 16px; margin-bottom: 15px;">Bersihkan Spasi</button>
+    <div id="outputText" style="white-space: pre-wrap; padding: 10px; border: 1px solid #ccc;"></div>
+  </div>
+
+  <script>
+    function fixText() {
+      const input = document.getElementById('inputText').value;
+      const cleaned = input
+        .replace(/\s+/g, ' ')        // Ganti banyak spasi/tabs/newline jadi 1 spasi
+        .replace(/^\s+|\s+$/g, '');  // Hapus spasi di awal dan akhir
+
+      document.getElementById('outputText').textContent = cleaned;
+    }
+  </script></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>hello world !</title>
+        <author>
+            <name>pong</name>
+        </author>
+        <link href="https://pongajar.com/hello-world.html"/>
+        <id>https://pongajar.com/hello-world.html</id>
+
+        <updated>2025-07-01T11:00:31+08:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>

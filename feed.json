@@ -1,0 +1,39 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "pongajar",
+    "description": "",
+    "home_page_url": "https://pongajar.com",
+    "feed_url": "https://pongajar.com/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "pong"
+    },
+    "items": [
+        {
+            "id": "https://pongajar.com/table-js.html",
+            "url": "https://pongajar.com/table-js.html",
+            "title": "Text fixer",
+            "summary": "Text Fixer Bersihkan Spasi",
+            "content_html": "<div> <div style=\"padding: 20px; margin: 30px;\">\n    <h2>Text Fixer</h2>\n    <textarea id=\"inputText\" rows=\"8\" style=\"width: 100%; padding: 10px; margin-bottom: 15px;\"></textarea>\n    <button onclick=\"fixText()\" style=\"padding: 8px 16px; margin-bottom: 15px;\">Bersihkan Spasi</button>\n    <div id=\"outputText\" style=\"white-space: pre-wrap; padding: 10px; border: 1px solid #ccc;\"></div>\n  </div>\n\n  <script>\n    function fixText() {\n      const input = document.getElementById('inputText').value;\n      const cleaned = input\n        .replace(/\\s+/g, ' ')        // Ganti banyak spasi/tabs/newline jadi 1 spasi\n        .replace(/^\\s+|\\s+$/g, '');  // Hapus spasi di awal dan akhir\n\n      document.getElementById('outputText').textContent = cleaned;\n    }\n  </script></div>",
+            "author": {
+                "name": "pong"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-07-01T14:38:55+08:00",
+            "date_modified": "2025-07-01T14:39:51+08:00"
+        },
+        {
+            "id": "https://pongajar.com/hello-world.html",
+            "url": "https://pongajar.com/hello-world.html",
+            "title": "hello world !",
+            "author": {
+                "name": "pong"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-07-01T11:00:31+08:00",
+            "date_modified": "2025-07-01T11:00:31+08:00"
+        }
+    ]
+}
